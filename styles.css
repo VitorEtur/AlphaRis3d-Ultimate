@@ -137,6 +137,7 @@ main {
 }
 
 @media (max-width: 780px) {
+
     body{
         overflow-x: hidden;
     }
@@ -163,8 +164,8 @@ main {
         height: 100vh;
         padding-left: 0;
         padding-right: 0px;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
+        padding-top: 0rem;
+        padding-bottom: 3rem;
         align-items: center;
         background: #333333;
         flex-direction: column;
@@ -224,6 +225,6 @@ main {
 }
 .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
-        background: #DEB887;
+    background: #DEB887;
 }
 
