@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+/* header {
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+} */
+
 nav a {
     color: #ffffff;
     text-decoration: none;
@@ -53,6 +59,10 @@ main {
     height: 100%;
 
 }
+
+/* .carousel-box {
+    margin-top: 3rem;
+} */
 .nav-list {
     list-style: none;
     display: flex;
@@ -85,6 +95,13 @@ main {
 /* .about-box {
     display: flex;
 } */
+
+.linha0 {
+    width: 100%;
+    height: 2px;
+    background: #DEB887;;
+    /* z-index: 10; */
+}
 
 .linha {
     width: 100%;
