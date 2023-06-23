@@ -26,6 +26,9 @@ nav a:hover {
     /* border-bottom: #ffffff 3px solid; */
     /* padding-bottom: 2.5vh; */
     transition: 100ms;
+    color: burlywood;
+    border-bottom: #ffffff 3px solid;
+    padding-bottom: 2.5vh;
     /* color: #c879ec; */
 }
 
