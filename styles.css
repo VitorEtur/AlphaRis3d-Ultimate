@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* header {
@@ -49,7 +50,7 @@ nav {
     justify-content: space-between;
     padding: 1rem;
     align-items: center;
-    font-family: 'Montserrat', sans-serif;
+
     font-style: italic;
     height: 8vh;
     background: #333333;
@@ -112,11 +113,17 @@ main {
     background: #DEB887;;
 }
 
+.about-tittle {
+    text-align: center;
+
+    margin-top: 5px;
+}
+
 .about-info {
     display: flex;
     margin: 1rem;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+
 }
 
 .info {
@@ -139,6 +146,30 @@ main {
     font-size: 1.5rem;
 }
 
+.projects-tittle {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.projects-box {
+    display: flex;
+    justify-content: center;
+}
+
+.projects-box .card {
+    width: 25%;
+    height: 50%;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 1.25rem;
+}
+
+.card img {
+    border-top-left-radius: calc(1.25rem - 1px);
+    border-top-right-radius: calc(1.25rem - 1px);
+}
+
 @media (max-width: 780px) {
 
     body{
@@ -151,6 +182,24 @@ main {
         z-index: 6;
         top: 0;
         left: 0;
+    }
+
+    .projects-box {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .projects-box .card {
+        width: 95%;
+        border-radius: 1.25rem;
+    }
+
+    .card img {
+        border-top-left-radius: calc(1.25rem - 1px);
+        border-top-right-radius: calc(1.25rem - 1px);
     }
 
     .linha0 {
