@@ -159,6 +159,10 @@ main {
         height: 2px;
     }
 
+    .mobile-menu .line2 {
+        background-color: #DEB887;
+    }
+
     .nav-list {
         position: absolute;
         top: 8vh;
