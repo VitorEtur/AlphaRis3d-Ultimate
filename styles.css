@@ -43,6 +43,7 @@ nav a:hover {
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 4px;
+    color: #DEB887;
 }
 
 nav {
@@ -92,7 +93,7 @@ main {
 }
 
 .carousel-item img {
-    max-height: 75vh;
+    max-height: 90vh;
     object-fit: cover;
   }
 
@@ -115,8 +116,18 @@ main {
 
 .about-tittle {
     text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
-    margin-top: 5px;
+.about-tittle h1 {
+    font-size: 2.5rem;
+    color: #DEB887;
+}
+
+.about-tittle p {
+    font-size: 1.5rem;
+    padding: 0 15px;
 }
 
 .about-info {
@@ -134,21 +145,26 @@ main {
 
 .info h2 {
     font-size: 1.5rem;
+    color: #DEB887;
 }
 
 .info2 {
-    padding: 1rem;
+    /* padding: 1rem; para manter igual aos demais */
+    padding: 0 1rem;
     border-right: 2px solid #DEB887;
     border-left: 2px solid #DEB887;
 }
 
 .info2 h2 {
     font-size: 1.5rem;
+    color: #DEB887;
 }
 
 .projects-tittle {
     text-align: center;
-    margin-top: 5px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #DEB887;
 }
 
 .projects-box {
@@ -168,6 +184,44 @@ main {
 .card img {
     border-top-left-radius: calc(1.25rem - 1px);
     border-top-right-radius: calc(1.25rem - 1px);
+}
+
+.card .btn {
+    border: 0px;
+}
+
+.card .btn {
+    color: #000;
+    background-color: #deb887;
+}
+
+.card .btn-primary {
+    color: #000;
+    background-color: #deb887;
+}
+
+.card .btn:focus {
+    color: #ffffff;
+    background-color: #deb887;
+    border: 0px;
+}
+
+.card .btn-primary:focus {
+    color: #ffffff;
+    background-color: #deb887;
+    border: 0px;
+}
+
+.card .btn:focus-visible {
+    color: #ffffff;
+    background-color: #deb887;
+    border: 0px;
+}
+
+.card .btn-primary:hover {
+    color: #ffffff;
+    background-color: #deb887;
+    border: 0px;
 }
 
 @media (max-width: 780px) {
@@ -193,6 +247,7 @@ main {
     }
 
     .projects-box .card {
+        margin: 5px;
         width: 95%;
         border-radius: 1.25rem;
     }
@@ -247,6 +302,19 @@ main {
         padding-left: 1rem;
         padding-right: 1rem;
         padding-top: 0;
+    }
+
+    .about-info h2 {
+        font-size: 1.7rem;
+    }
+
+    .about-info p {
+        font-size: 1.2rem;
+    }
+
+    .about-tittle h1{
+        font-size: 3rem;
+
     }
 
     .info2 {
