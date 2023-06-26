@@ -168,6 +168,7 @@ main {
 .projects-box {
     display: flex;
     justify-content: center;
+    margin-bottom: 2rem;
 }
 
 .projects-box .card {
@@ -220,6 +221,72 @@ main {
     color: #ffffff;
     background-color: #deb887;
     border: 0px;
+}
+
+.form-tittle {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #DEB887;
+}
+
+.form-box {
+    display: flex;
+    justify-content: center;
+
+}
+
+form {
+    max-width: 520px;
+    text-align: center;
+}
+
+form input {
+    width: 520px;
+    background: transparent;
+    border: 1px solid #DEB887;
+    padding: 10px;
+    color: #fff;
+}
+
+form textarea {
+    width: 520px;
+    height: 200px;
+    max-height: 300px;
+    min-height: 200px;
+    background: transparent;
+    border: 1px solid #DEB887;
+    padding: 10px;
+    color: #fff;
+}
+
+form button {
+    width: 520px;
+    background-color: #DEB887;
+    margin-bottom: 2rem;
+    height: 50px;
+}
+
+form button:visited {
+    background-color: #DEB887;
+}
+
+form button:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+.text-name {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    background: transparent;
+}
+
+.form-area {
+    background-color: #333333;
 }
 
 @media (max-width: 780px) {
@@ -314,8 +381,13 @@ main {
         font-size: 1rem;
     }
 
-    .about-tittle h1{
+    .about-tittle h1 {
         font-size: 2rem;
+    }
+
+    .about-tittle p {
+        padding: 1rem;
+        font-size: 1rem;
     }
 
     .info2 {
