@@ -136,9 +136,10 @@ main {
 }
 
 .info {
-    padding: 1rem;
+    padding: 0rem;
     border-right: 2px solid #deb88700;
     border-left: 2px solid #deb88700;
+    width: 50%;
 }
 
 .info h2 {
@@ -147,10 +148,11 @@ main {
 }
 
 .info2 {
-    /* padding: 1rem; para manter igual aos demais */
+    padding: 1rem; 
     padding: 0 1rem;
     border-right: 2px solid #DEB887;
     border-left: 2px solid #DEB887;
+    width: 50%;
 }
 
 .info2 h2 {
@@ -379,22 +381,44 @@ form label {
 
     .about-info p {
         font-size: 1rem;
+        margin-bottom: -1.5rem;
+        text-align: justify;
     }
 
     .about-tittle h1 {
         font-size: 2rem;
+        margin-bottom: -1rem;
     }
 
     .about-tittle p {
         padding: 1rem;
         font-size: 1rem;
+        display: none;
+    }
+
+    .about-box {
+        margin-bottom: 4rem;
+    }
+
+    .info {
+        width: 100%;
+        padding: 1rem;
     }
 
     .info2 {
         padding: 1rem;
         border: none;
-        border-top: 2px solid #DEB887;
-        border-bottom: 2px solid #DEB887;;
+        width: 100%;
+        /* border-top: 2px solid #DEB887;
+        border-bottom: 2px solid #DEB887;; */
+    }
+
+    .info h2 {
+        display: none;
+    }
+
+    .info2 h2 {
+        display: none;
     }
 
     form {
