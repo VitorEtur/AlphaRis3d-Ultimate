@@ -396,11 +396,28 @@ form label {
         border-top: 2px solid #DEB887;
         border-bottom: 2px solid #DEB887;;
     }
+
+    form {
+        max-width: 100vw;
+    }
+
+    form input {
+        width: 92vw;
+    }
+    
+    form textarea {
+        width: 92vw;
+    }
+
+    form button {
+        width: 92vw;
+    }
     
 }
     .nav-list.active {
         transform: translateX(0);
     }
+
 
 @keyframes navLinkFade {
     from {
