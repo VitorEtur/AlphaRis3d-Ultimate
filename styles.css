@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* header {
@@ -132,11 +133,10 @@ main {
     display: flex;
     margin: 1rem;
     text-align: center;
-
 }
 
 .info {
-    padding: 0rem;
+    padding: 0 1rem 0 1rem;
     border-right: 2px solid #deb88700;
     border-left: 2px solid #deb88700;
     width: 50%;
@@ -291,6 +291,56 @@ form label {
     background-color: #333333;
 }
 
+footer {
+    background-color: #333333;
+}
+
+.contact-tittle {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #DEB887;
+}
+
+.contact-area {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-self: center;
+    align-items: center;
+}
+
+.contact-box .btn-primary {
+    width: 45%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: #DEB887;
+    color: #000;
+    border: none;
+}
+
+.contact-box .btn-primary:hover {
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: #DEB887;
+    color: #000;
+    border: none;
+}
+
+.copyright {
+    margin-top: 3rem;
+    text-align: center;
+    color: #DEB887;
+    font-size: 10px;
+}
+
 @media (max-width: 780px) {
 
     body{
@@ -303,6 +353,25 @@ form label {
         z-index: 6;
         top: 0;
         left: 0;
+    }
+
+    :target {
+        scroll-margin-top: 3rem;
+      }
+
+    .contact-box {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contact-box .btn-primary {
+        width: 90%;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        background-color: #DEB887;
+        color: #000;
+        border: none;
     }
 
     .projects-tittle h1{
